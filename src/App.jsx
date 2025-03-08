@@ -15,7 +15,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "react-hot-toast";
 import CheckOut from "./components/CheckOut/CheckOut";
 import AllOrders from "./components/AllOrders/AllOrders";
-import WhishList from "./components/WishList/WishList";
+import WhishList from "./components/Wishlist/WishList";
 function App() {
   const router = createBrowserRouter([
     {
