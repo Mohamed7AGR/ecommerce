@@ -10,12 +10,12 @@ import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
-import WhishList from "./components/Whishlist/Whishlist";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "react-hot-toast";
 import CheckOut from "./components/CheckOut/CheckOut";
 import AllOrders from "./components/AllOrders/AllOrders";
+import WhishList from "./components/Whishlist/Whishlist";
 
 function App() {
   const router = createBrowserRouter([
